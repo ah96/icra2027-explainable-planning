@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/Event">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICRA 2027 Workshop: Explainable Robot Planning</title>
+  <meta name="description" content="Half-day workshop at the 2027 IEEE International Conference on Robotics and Automation (ICRA 2027): Explainable Robot Planning — From Task Decisions to Navigation, Motion, and Human Understanding.">
+  <meta property="og:title" content="ICRA 2027 Workshop: Explainable Robot Planning">
+  <meta property="og:description" content="From Task Decisions to Navigation, Motion, and Human Understanding. Half-day workshop at ICRA 2027.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrapper nav-inner">
+    <a href="#top" class="nav-brand">XRP @ ICRA 2027</a>
+    <ul class="nav-list">
+      <li><a href="#about">Scope</a></li>
+      <li><a href="#call">Call for Papers</a></li>
+      <li><a href="#dates">Dates</a></li>
+      <li><a href="#speakers">Speakers</a></li>
+      <li><a href="#schedule">Program</a></li>
+      <li><a href="#breakouts">Breakouts</a></li>
+      <li><a href="#organizers">Organizers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="header" id="top">
+  <div class="wrapper">
+    <p class="header-kicker">Half-day workshop at ICRA 2027</p>
+    <h1 class="header-title">Explainable Robot Planning</h1>
+    <p class="header-subtitle">From Task Decisions to Navigation, Motion, and Human Understanding</p>
+    <ul class="header-meta">
+      <li><span class="meta-label">When</span> 24 or 28 May 2027, 08:30–12:30 (TBC)</li>
+      <li><span class="meta-label">Where</span> IEEE ICRA 2027, Seoul, South Korea</li>
+      <li><span class="meta-label">Format</span> In-person: invited talks, pitches, posters/demos, facilitated breakouts</li>
+    </ul>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="#call">Call for Papers</a>
+      <a class="btn btn-ghost" href="#schedule">Program</a>
+    </div>
+  </div>
+</header>
+
+<!-- Remove this notice once the workshop is accepted. -->
+<div class="notice">
+  <div class="wrapper">
+    Workshop proposal submitted to ICRA 2027. Acceptance notifications are expected by 31 January 2027. Dates and details below are tentative.
+  </div>
+</div>
+
+<main>
+
+<section class="section" id="about">
+  <div class="wrapper">
+    <h2 class="section-title">Scope and Objectives</h2>
+    <div class="two-col">
+      <div>
+        <p>Robot behavior links <strong>task planning</strong> (what to do), <strong>navigation and path planning</strong> (where to go), and <strong>motion planning</strong> (which feasible trajectories to execute). Explaining a detour, a changed task sequence, or a failed grasp requires evidence from actual goals, maps, planner constraints, and execution. This is particularly important for hybrid and foundation-model-based systems.</p>
+        <p>This focused workshop brings together explainable task planning, explainable navigation, and explainable motion planning, linked through <em>planner evidence</em>, <em>feasible alternatives</em>, and <em>execution outcomes</em>. Unlike the broad scope of the ICRA 2023 Explainable Robotics workshop, this edition systematically connects planning evidence, executable alternatives, and human use.</p>
+        <p>Shared navigation and manipulation challenge cases will yield a <strong>challenge inventory</strong> and an <strong>evaluation checklist</strong> for explanations of robot plans.</p>
+      </div>
+      <aside class="card">
+        <h3>Three guiding questions</h3>
+        <ol class="questions">
+          <li>Which goals, costs, obstacles, kinematic limits, and safety rules explain a task choice, navigation route, or motion?</li>
+          <li>Can counterfactual plans, paths, trajectories, and authorized interventions be verified by replanning?</li>
+          <li>Do grounded explanations improve human understanding and safe correction, and how should faithfulness and feasibility be evaluated?</li>
+        </ol>
+      </aside>
+    </div>
+    <div class="tags">
+      <span>Explainable Robotics</span>
+      <span>Explainable Task Planning</span>
+      <span>Explainable Navigation</span>
+      <span>Explainable Motion Planning</span>
+      <span>Human-Robot Interaction</span>
+      <span>Counterfactual Explanations</span>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="call">
+  <div class="wrapper">
+    <h2 class="section-title">Call for Contributions</h2>
+    <div class="two-col">
+      <div>
+        <p>We invite <strong>4-page non-archival short papers</strong> (including references) on explainable task planning, robot navigation and path planning, motion planning, their integration, and human-facing explanation. Topics of interest include, but are not limited to:</p>
+        <ul class="topics">
+          <li>Explanations of task plans, action sequences, and task-sequence changes</li>
+          <li>Explainable navigation and path selection: map evidence, path costs, obstacle avoidance, alternative routes</li>
+          <li>Explainable motion planning: kinematic limits, collision-free and safe trajectories, abandoned grasps</li>
+          <li>Counterfactual plans, paths, and trajectories, and verification of alternatives by replanning</li>
+          <li>Authorized human interventions and verified plan repairs</li>
+          <li>Explanations for hybrid and foundation-model-based planning systems</li>
+          <li>Human-centered communication of planner evidence and user understanding</li>
+          <li>Evaluation of faithfulness, physical feasibility, and explanation quality</li>
+          <li>Shared embodied scenarios, benchmarks, and metrics for explainable planning</li>
+        </ul>
+      </div>
+      <aside class="card">
+        <h3>Submission and selection</h3>
+        <ul class="plain">
+          <li><strong>Format:</strong> up to 4 pages including references, IEEE conference template.</li>
+          <li><strong>Review:</strong> two conflict-free reviews per submission; selection by relevance, merit, and discussion value.</li>
+          <li><strong>Presentation:</strong> up to 12 posters/demos; four selected papers also give a 5-minute pitch.</li>
+          <li><strong>Demos:</strong> laptop-based demonstrations are welcome.</li>
+          <li><strong>Non-archival:</strong> no proceedings; author-controlled links are posted only with permission.</li>
+          <li><strong>Submission:</strong> <a href="#contact">link to be announced</a>.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="dates">
+  <div class="wrapper">
+    <h2 class="section-title">Important Dates</h2>
+    <table class="dates-tbl">
+      <tbody>
+        <tr><th>Submission deadline</th><td>TBA</td></tr>
+        <tr><th>Notification of acceptance</th><td>TBA</td></tr>
+        <tr><th>Camera-ready version</th><td>TBA</td></tr>
+        <tr><th>Workshop</th><td>24 or 28 May 2027 (TBC), 08:30–12:30</td></tr>
+      </tbody>
+    </table>
+    <p class="muted">All deadlines are Anywhere on Earth (AoE).</p>
+  </div>
+</section>
+
+<section class="section section-alt" id="speakers">
+  <div class="wrapper">
+    <h2 class="section-title">Invited Speakers</h2>
+    <ul class="people-list">
+      <li class="person">
+        <img class="person-photo" src="img/speakers/jean-oh.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'JO'}))">
+        <div class="person-name">Jean Oh</div>
+        <div class="person-affil">Carnegie Mellon University, USA</div>
+        <div class="person-talk">Talk title: TBA</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/speakers/maren-bennewitz.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'MB'}))">
+        <div class="person-name">Maren Bennewitz</div>
+        <div class="person-affil">University of Bonn, Germany</div>
+        <div class="person-talk">Talk title: TBA</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/speakers/lars-kunze.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'LK'}))">
+        <div class="person-name">Lars Kunze</div>
+        <div class="person-affil">University of the West of England, UK</div>
+        <div class="person-talk">Talk title: TBA</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/speakers/silvia-rossi.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'SR'}))">
+        <div class="person-name">Silvia Rossi</div>
+        <div class="person-affil">University of Naples Federico II, Italy</div>
+        <div class="person-talk">Talk title: TBA</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="schedule">
+  <div class="wrapper">
+    <h2 class="section-title">Program</h2>
+    <p class="muted">Tentative half-day schedule, local time (Seoul). Final timing subject to the assigned slot.</p>
+    <table class="schedule-tbl">
+      <tbody>
+        <tr><td class="time">08:30–08:40</td><td>Welcome and introduction</td></tr>
+        <tr><td class="time">08:40–09:30</td><td>Invited talks 1–2 with Q&amp;A (25 min each)</td></tr>
+        <tr><td class="time">09:30–09:50</td><td>Four contributed pitches (5 min each)</td></tr>
+        <tr class="break"><td class="time">09:50–10:35</td><td>Posters and demos (30 min, up to 12) and coffee break (15 min)</td></tr>
+        <tr><td class="time">10:35–11:25</td><td>Invited talks 3–4 with Q&amp;A (25 min each)</td></tr>
+        <tr><td class="time">11:25–12:05</td><td>Three facilitated thematic breakouts</td></tr>
+        <tr><td class="time">12:05–12:30</td><td>Group reports and panel (20 min), closing (5 min)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section section-alt" id="breakouts">
+  <div class="wrapper">
+    <h2 class="section-title">Challenge Cases and Breakouts</h2>
+    <p>Two shared challenge cases span the workshop scope. Participants identify evidence from the operative planner, test alternative task, path, or trajectory choices, and articulate what a human may safely change. The cases enable comparison without mandating one planning architecture.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Case 1: Rerouted mobile robot</h3>
+        <p>A mobile robot changes its navigation route because a corridor is blocked or crowded. The explanation must draw on map evidence, path costs, obstacle avoidance, and alternative routes.</p>
+      </div>
+      <div class="card">
+        <h3>Case 2: Abandoned grasp</h3>
+        <p>A mobile manipulator changes a task sequence or abandons a grasp because a collision-free, safe motion is unavailable. The explanation must connect the task-level decision to geometric infeasibility.</p>
+      </div>
+    </div>
+    <h3 class="sub-title">Facilitated breakouts</h3>
+    <div class="cards cards-3">
+      <div class="card">
+        <h3>A. Task plans</h3>
+        <p>Explanations of task plans and action sequences.</p>
+      </div>
+      <div class="card">
+        <h3>B. Navigation and motion</h3>
+        <p>Navigation, path, and motion-planning explanations, including counterfactual routes, trajectories, and verified repairs.</p>
+      </div>
+      <div class="card">
+        <h3>C. Human-centered evaluation</h3>
+        <p>Human-centered communication and evaluation of explanations.</p>
+      </div>
+    </div>
+    <p>Each group has a facilitator, a rapporteur, advance questions, and a worksheet to specify a reproducible case (goal, robot/planner evidence, user question, alternatives), candidate metrics, and open research priorities. The plenary compares findings and disagreements. Aggregated notes may form an openly shared challenge-and-evaluation summary.</p>
+  </div>
+</section>
+
+<section class="section" id="organizers">
+  <div class="wrapper">
+    <h2 class="section-title">Organizers</h2>
+    <ul class="people-list people-list-wide">
+      <li class="person">
+        <img class="person-photo" src="img/organizers/amar-halilovic.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'AH'}))">
+        <div class="person-name">Amar Halilovic</div>
+        <div class="person-affil">Ulm University, Germany</div>
+        <div class="person-talk">Primary contact</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/wenxi-wu.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'WW'}))">
+        <div class="person-name">Wenxi Wu</div>
+        <div class="person-affil">King's College London, UK</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/vahidin-hasic.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'VH'}))">
+        <div class="person-name">Vahidin Hasic</div>
+        <div class="person-affil">University of Sarajevo, Bosnia and Herzegovina</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/gerard-canal.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'GC'}))">
+        <div class="person-name">Gerard Canal</div>
+        <div class="person-affil">King's College London, UK</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/martim-brandao.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'MB'}))">
+        <div class="person-name">Martim Brandao</div>
+        <div class="person-affil">King's College London, UK</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/senka-krivic.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'SK'}))">
+        <div class="person-name">Senka Krivic</div>
+        <div class="person-affil">University of Sarajevo, Bosnia and Herzegovina</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/eliot-xing.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'EX'}))">
+        <div class="person-name">Eliot Xing</div>
+        <div class="person-affil">Carnegie Mellon University, USA</div>
+      </li>
+      <li class="person">
+        <img class="person-photo" src="img/organizers/xiaoxuan-hei.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'person-photo initials',textContent:'XH'}))">
+        <div class="person-name">Xiaoxuan Hei</div>
+        <div class="person-affil">ENSTA Paris, Polytechnic Institute of Paris, France</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" id="previous">
+  <div class="wrapper">
+    <h2 class="section-title">Related Events</h2>
+    <p>This focused event builds on earlier workshops co-organized by members of our team:</p>
+    <ul class="plain links">
+      <li><a href="https://icra2023-explainablerobotics.sites.er.kcl.ac.uk/" target="_blank" rel="noopener">ICRA 2023 Workshop on Explainable Robotics</a> (London, 2023)</li>
+      <li><a href="https://dtur-hri.github.io/workshop2026/" target="_blank" rel="noopener">HRI 2026 Workshop on Designing Transparent and Understandable Robots</a> (Edinburgh, 2026)</li>
+    </ul>
+    <p class="muted">Relevant IEEE RAS Technical Committees: Human-Robot Interaction; Cognitive Robotics; Algorithms for Planning and Control of Robot Motion.</p>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrapper">
+    <h2 class="section-title">Contact</h2>
+    <p>For questions about the workshop or submissions, contact the primary organizer:</p>
+    <p class="contact-line"><strong>Amar Halilovic</strong>, Ulm University<br>
+      <a href="mailto:amar.halilovic@uni-ulm.de">amar.halilovic@uni-ulm.de</a></p>
+    <p class="muted">Talks will not be recorded or distributed. Only permission-cleared author links and an agreed summary of discussion outputs will be shared on this website.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+    <p>Explainable Robot Planning workshop at <a href="https://2027.ieee-icra.org/" target="_blank" rel="noopener">IEEE ICRA 2027</a>.</p>
+  </div>
+</footer>
+
+</body>
+</html>
